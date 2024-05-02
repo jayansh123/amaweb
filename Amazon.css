@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;  /*content area ke andar hi boder include hoga*/
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+}
+.logo{
+    background-image: url(amazonlogo.webp);
+    background-size: cover;
+    height: 30px;
+    width: 75%;
+    margin-top: 10px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box 2 */
+.address-1{
+    color: #cccccc ;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address-2{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-icon{
+    display: flex;
+}
+
+/* box 3*/
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 620px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2.5px solid orange;
+}
+.select-option{
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+   border: none;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color: #0f1111;
+}
+
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 is same as box 4 */
+
+/* box 6 */
+/*  i means here we can do manipulation in icon */
+.nav-cart i{
+  font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*  Here first nav is completed */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.panel-options p{    /*  p means for paragraph */
+display: inline;
+margin-left: 15px;
+}
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 
+}
+
+/* Here second part is completed */
+
+.hero-section{
+    height: 350px;
+    background-size: cover;
+    background-image: url(hero.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+height: 40px;
+background-color: white;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1rem;
+width: 80%;
+margin-bottom: 20px;
+}
+.hero-msg a{
+color: #007185;
+}
+
+/* Here third part is completed  */
+
+.shop-section{
+   display: flex;
+   flex-wrap: wrap;    /*it is used to give the new line to images */
+   justify-content: space-evenly;
+   background-color:bisque;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+.images{
+    display: flex;
+    flex-wrap:wrap;
+   
+   
+}
+
+   
+    .box-img2{
+        height: 102px;
+        width: 130px;
+        margin-top: 1rem;
+        
+    }
+    .box-img1{
+        height: 102px;
+        width: 130px;
+        margin-top: 1rem;
+        margin-right: 1.5rem;
+    }
+        .box-img3{
+            height: 102px;
+            width: 130px;
+            margin-top: 3rem;  
+        }
+        .box-img4{
+            height: 102px;
+            width: 130px;
+            margin-top: 3rem;
+            margin-left: 1.5rem;
+    
+        }
+        .text{
+            margin-top: 6.5rem;
+            color: rgba(0, 0, 0, 0.633);
+            font-size: 12px;
+        }
+        .ground{
+          display: flex;
+         position:relative;
+         bottom: -50px;
+         color: #007185;
+         font-size: 1rem;
+         text-decoration: none;
+        }
+        /* footer */
+        footer{
+            margin-top: 15px;
+        }
+        .foot-panel1{
+            background-color: #37475a;
+            height: 50px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.75rem;
+        }
+        .foot-panel2{
+            height: 300px;
+            background-color: #222f3d;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        ul{
+            margin-top: 20px;
+        }
+        ul a{
+            display: block;
+            font-size: 0.85rem;
+            color: #dddddd;
+            margin-top: 10px;
+        }
